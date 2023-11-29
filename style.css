@@ -120,6 +120,7 @@ main {
     width: 100%;
     text-align: center;
     height: 73px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 .left-right {
@@ -228,6 +229,7 @@ main {
     width: 100%;
     text-align: center;
     height: 73px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -310,6 +312,8 @@ main {
     align-items: center;
     margin-top: 65px;
     position: relative;
+    height: 868px;
+    overflow: hidden;
 }
 
 .footage .title {
@@ -349,7 +353,7 @@ main {
     width: 980px;
     height: 531px;
     align-self: start;
-    position: relative;
+    position: absolute;
 }
 
 .container1 .about {
@@ -390,8 +394,8 @@ main {
     align-self: end;
     width: 580px;
     height: 528px;
-    position: relative;
-    bottom: 240px;
+    position: absolute;
+    top: 271px;
 }
 
 .container2 .about {
@@ -434,9 +438,9 @@ main {
 .container3 {
     width: 685px;
     height: 258px;
-    position: relative;
+    position: absolute;
     align-self: start;
-    bottom: 420px;
+    top: 600px;
 }
 
 .container3 .nick {
@@ -449,4 +453,397 @@ main {
     position: absolute;
     right: 0px;
     bottom: 43px;
+}
+
+.orbit {
+    width: 1180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 267px;
+}
+
+.orbit h2 {
+    font-family: PT_Mono;
+    color: #F7F7F7;
+    font-size: 36px;
+    line-height: 46px;
+    border-bottom: solid #404454 1px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    height: 73px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.line {
+    border-bottom: solid #404454 1px;
+    width: 100%;
+    height: 114px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.subs {
+    font-family: Tilda Sans;
+    font-size: 14px;
+    line-height: 15.54px;
+    color: #FFFFFF;
+    align-self: start;
+    position: relative;
+    top: 26px;
+}
+
+.brand {
+    font-family: PT_Mono;
+    font-size: 60px;
+    line-height: 46px;
+    color:#F7F7F7;
+    width: 580px;
+    text-transform: uppercase;
+}
+
+.catalog {
+    font-family: PT_Mono;
+    font-size: 60px;
+    line-height: 46px;
+    color: #404454;
+    text-transform: uppercase;
+    position: relative;
+    top: 3px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.arrow {
+    background-image: url("img/arrow.png");
+    width: 48px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    position: relative;
+    top: 7px;
+}
+
+.queue_body {
+    margin-top: 380px;
+}
+
+.queue_body p {
+    font-family: PT_Mono;
+    font-size: 36px;
+    line-height: 54px;
+    color: #F7F7F7;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.queue_body span {
+    align-self: end;
+}
+
+.team {
+    width: 1180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400px;
+}
+
+.team h2 {
+    font-family: PT_Mono;
+    color: #F7F7F7;
+    font-size: 36px;
+    line-height: 46px;
+    border-bottom: solid #404454 1px;
+    width: 100%;
+    text-align: center;
+    height: 73px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.team_container {
+    margin-top: 79px;
+    display: flex;
+    flex-direction: row;
+    width: 931px;
+    justify-content: space-between;
+}
+
+.member {
+    width: 456px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.danya {
+    background-image: url("img/danya.png");
+    width: 321px;
+    height: 531px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ira {
+    background-image: url("img/ira.png");
+    width: 208px;
+    height: 476px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 49px;
+    top: 23px;
+}
+
+.member .name {
+    font-family: PT_Mono;
+    width: 76px;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #FFFFFF;
+    position: absolute;
+    right: 10px;
+    top: 67px;
+    text-transform: uppercase;
+}
+
+.member .about {
+    font-family: Tilda Sans;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #595E75;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0;
+    top: 392px;
+}
+
+.with_us {
+    width: 1180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.with_us h2 {
+    font-family: PT_Mono;
+    color: #F7F7F7;
+    font-size: 36px;
+    line-height: 46px;
+    border-bottom: solid #404454 1px;
+    width: 100%;
+    text-align: center;
+    height: 73px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.connect {
+    width: 100%;
+    height: 401px;
+    width: 100%;
+    margin-top: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form span {
+    color: #595E75;
+    font-weight: 400;
+    font-family: Tilda Sans;
+    font-size: 14px;
+    line-height: 15.54px;
+    margin: 0;
+    margin-right: 22px;
+    position: relative;
+    top: 10px;
+    align-self: start;
+}
+
+.subline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form label {
+    color: #F7F7F7;
+    font-weight: 400;
+    font-family: PT_Mono;
+    font-size: 35px;
+    line-height: 54px;
+    margin: 0;
+    margin-right: 22px;
+    width: 100%;
+}
+
+input[type=text] {
+    background-color: #05050A;
+    border: none;
+    border-bottom: #F7F7F7 solid 1px;
+    color: #2C3342;
+    font-size: 35px;
+    height: 54px;
+    text-align: center;
+    margin-right: 0;
+    width: 444px;
+}
+
+.dot {
+    position: relative;
+    top: -6px;
+    width: 5px;
+}
+
+button {
+    margin-left: 0;
+    margin-top: 50.67px;
+    display: flex;
+    padding: 0px;
+    border: none;
+    background-color: #05050A;
+}
+
+button p {
+    color: #595E75;
+    font-weight: 400;
+    font-family: Tilda Sans;
+    font-size: 14px;
+    line-height: 15.54px;
+    margin: 0;
+    text-align: left;
+}
+
+.button_arrow {
+    background-image: url("img/button\ arrow.png");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 21px;
+}
+
+footer {
+    width: 100%;
+    border-top: #FFFFFF solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 184px;
+    margin-bottom: 25px;
+}
+
+.footer {
+    display: flex;
+    width: 1185px;
+    flex-direction: row;
+    margin-top: 31px;
+    justify-content: space-between;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    height: 170px;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    background-image: url("img/FAVIAS.png");
+    width: 81.33px;
+    height: 19.33px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer_left a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.back_arrow {
+    background-image: url("img/Vector 1.png");
+    width: 85px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer_left a p {
+    text-decoration: none;
+    font-family: Tilda Sans;
+    font-size: 14px;
+    line-height: 15.54px;
+    color: #404454;
+    margin: 3px 0 0 18px;
+}
+
+.footer_right {
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-right: 100px;
+}
+
+.shopping, .keep_in_touch {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.footer_right div {
+    width: 180px;
+}
+
+.footer_right h3 {
+    font-family: PT_Mono;
+    font-size: 14px;
+    line-height: 15.54px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-bottom: 12px;
+    border-bottom: solid #404454 1px;
+    text-transform: uppercase;
+}
+
+.footer_right a {
+    text-decoration: none;
+    font-family: Tilda Sans;
+    font-size: 14px;
+    line-height: 15.54px;
+    color: #404454;
 }
